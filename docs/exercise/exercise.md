@@ -4,7 +4,10 @@
 
 Matriculation Number: <to be filled by student>
 
-Project idea short description: 
+Ich m�chte eine Website erstellen welche zum Ver�ffentlichen von Reparaturanleitungen f�r Reparaturen an Autos dient. Reparaturanleitungen welche auf anderen Plattformen wie Foren ver�ffentlicht werden, gehen oftmals schon nach wenigen Jahren o
+Die Website soll ein Kontaktformular (Captcha gesch�tzt), eineb Blog Teil und eine intelligente Suchfunktion haben
+Ich werde der einzige User sein, welcher Anleitungen auf der Website ver�ffentlicht
+ 
 
 
 ## Project confirmation
