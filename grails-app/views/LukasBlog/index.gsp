@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 
-<!--EXTERNAL Dieses HTML habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=g2taIe7ZFUA -->
+<!--EXTERNAL Dieses HTML habe ich unter zu Hilfename folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=g2taIe7ZFUA -->
 <html>
 
 	<head>
 		<title>LukasBlog</title>
 		<link rel="stylesheet" href="../../assets/stylesheets/LukasBlog.css" type="text/css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"<>/script>
-		<script type ="text/javascript">
-		
-		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
 		</head>
 		<body>
 			<section id="menuleiste">
 					<ul>
-						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png" alt="Menubutton"</a></li>
+						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png" alt="Menubutton"/> </a></li>
                         
 					</ul>
 			</section>
 				<header>
 					<h1>LukasBlog</h1>
 				</header>
-				<nav class="Navigation">
+				<nav class="nav">
 					<ul>
 						<li><a href="index.gsp" class="active">Home</a></li>
 						<li><a href="index.gsp">Anleitungen</a></li>
@@ -34,7 +31,7 @@
 			<section id="hauptbereich">
 				<article>
                 <p> 
-                   Willkommen auf munserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
+                   Willkommen auf unserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
                    
                   </p>
 				<img src="../../assets/images/M5.png" alt="2001 M5 E39 LeMansBlau"/>
@@ -59,13 +56,14 @@
 					</aside> --!>
                     
 				<footer>
-				<li&copy; 2017 Lukas Meyer</li>
-				<li>Kontakt</li>
-				<li>Impressum</li>
+                    <ul>
+				        <li>&copy 2017 Lukas Meyer</li>
+				        <li>Kontakt</li>
+				        <li>Impressum</li>
+                    </ul>
 				</footer>
 			
-			
-		
+
 			
 		</body>
 		</html>
