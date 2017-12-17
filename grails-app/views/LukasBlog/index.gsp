@@ -15,7 +15,7 @@
 		<body>
 			<section id="menuleiste">
 					<ul>
-						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png"</a></li>
+						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png" alt="Menubutton"</a></li>
                         
 					</ul>
 			</section>
@@ -31,15 +31,15 @@
 						<li><a href="index.gsp">Über uns</a></li>
 					</ul>
 				</nav>
-			<section id="main">
+			<section id="hauptbereich">
 				<article>
-					<h2>Dies ist ein Artikel<h2>
+					<h2>Dies ist ein Artikel</h2>
 					<p> Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. </p>
 					<p> Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. </p>
 					<p> Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. </p>
 				</article>
 				</section>
-					<aside>
+				<!--	<aside>
 						<section>
 							<h2>Spenden</h2>
 							<p>Gefallen Ihnen meine Anleitungen? Spenden können mit Paypal unter dem Link: abc.com getätigt werden. </p>
@@ -53,7 +53,8 @@
 								<li>Innenraumgebläse wechseln 2007 BMW 330xd Touring</li>
 							</ul>
 						</section>
-					</aside>
+					</aside> --!>
+                    
 				<footer>
 				<li&copy; 2017 Lukas Meyer</li>
 				<li>Kontakt</li>
