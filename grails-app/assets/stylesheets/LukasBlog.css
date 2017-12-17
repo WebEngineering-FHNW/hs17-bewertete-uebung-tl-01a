@@ -1,28 +1,67 @@
-/* Dieses CSS habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=dVYdOSSJ_Tk */
+/*EXTERNALDieses CSS habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=dVYdOSSJ_Tk */
 
 body{
- background:DCDCDC;
-    font-size:100%;
+ background:#DCDCDC; /*Hintergrundfarbe*/
+    font-size:100%; /*Standard Font Size =>Schriftgrösse 16px*/
     margin:0em;
     padding:0em;
     
 }
 h1{
-    font-size:2.5em;
-    line-height:3.8em;
-    font-family:sans-serif;
-    font-weight: 100;
-    color:#F0FFFF;
-    margin:0em;
+    font-size:2.5em; /*2.5x Standardschriftgrösse*/
+    line-height:3.8em; /*2.5x Standardzeilenabstand*/
+    font-family:sans-serif; /*Schrift sans-serif*/
+    font-weight: 100; /*Schrift Gewicht 100*/
+    color:#F0FFFF; /*setzt Farbe*/
+    margin:0em; /*Ränder 0em*/
 }
 h2{
-    font-size:1.5em;
+    font-size:1.563em;
     line-height:1.8em;
     font-family:sans-serif;
     font-weight: 100;
     color:#F0FFFF;
     margin:0em;
-    padding:1.25em;
-    text-align: left;
+    padding:1.25em; /*inneren Abstand 1.25em*/
+    text-align: left; /*Text links orrientiert*/
     
+}
+p{    
+    /*Keine Schriftgrösse, somit Standardschriftgrösse*/
+    line-height:1.25em;
+    font-family: sans-serif;
+    font-weight:100;
+    color:black; /*Schriftfarbe schwarz*/
+    margin:0em;
+    padding: 1.25em;
+    text-align:justify; /*Blocksatz*/
+        
+}
+
+/*Standardangaben für Auflistungen*/
+ul{
+    margin:0px; /*kein Abstand*/
+    padding:0px;
+}
+/*Einstellungen für Listenelemente*/
+li{
+    list-style:circle;
+    font-family: sans-serif;
+    font-weight:100;
+    color:black; /*Schriftfarbe schwarz*/
+    margin:0em;
+    padding: 1.25em;
+    margin:0.313em 0em 0.313em 0em; /*Abstände auf jeder Seite, ca. 3px*/
+    
+}
+/*Einstellungen für Bilder*/
+img{
+    widt:90%; /*Breite des Bilder =90% des Elternelementes*/
+    height:auto; /*Automatische Bildhöhe im Verhältnis zur Breite*/
+    max-widt:100%; /*Maximale Bildbreite =100% der Seitenbreite*/
+    
+}
+
+a{
+   text-decoration: none; 
 }
