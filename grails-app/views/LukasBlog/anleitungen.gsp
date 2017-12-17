@@ -33,12 +33,14 @@
 				</nav>
 			<section id="hauptbereich">
 				<article>
-                <p> 
-                   Willkommen auf munserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
+				
+					<p> 
                    
-                  </p>
-				<img src="../../assets/images/M5.png" alt="2001 M5 E39 LeMansBlau"/>
-					
+                   <img class="links" src="../../assets/images/525i E34 Ausschlachten.jpg" alt="525i E34 Ausschlachten"/>
+                   Willkommen auf meiner Homepage. Hier findest du Reparaturanleitungen, Informationenüber meine Projekte und Informationen über uns.
+                   
+                  
+                    Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. Dies ist ein Test Text, er macht leider keinen Sinn. Er dient nur dazu den Text als Beispiel darzustellen. </p>
 				
 				</article>
 				</section>
