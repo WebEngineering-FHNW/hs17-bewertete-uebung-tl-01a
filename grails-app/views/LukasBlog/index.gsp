@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>LukasBlog</title>
-		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="LukasBlog.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"<>/script>
 		<script type ="text/javascript">
