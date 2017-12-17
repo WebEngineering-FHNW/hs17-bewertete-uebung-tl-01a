@@ -16,6 +16,7 @@
 			<section id="menuleiste">
 					<ul>
 						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png"</a></li>
+                        
 					</ul>
 			</section>
 				<header>
@@ -23,11 +24,11 @@
 				</header>
 				<nav class="Navigation">
 					<ul>
-						<li><a href="index.html" class="active">Home</li>
-						<li><a href="index.html" >Anleitungen</li>
-						<li><a href="index.html" >Projekte</li>
-						<li><a href="index.html" >Kontakt</li>
-						<li><a href="index.html" >Über uns</li>
+						<li><a href="index.gsp" class="active">Home</a></li>
+						<li><a href="index.gsp">Anleitungen</a></li>
+						<li><a href="index.gsp">Projekte</a></li>
+						<li><a href="index.gsp">Kontakt</a></li>
+						<li><a href="index.gsp">Über uns</a></li>
 					</ul>
 				</nav>
 			<section id="main">

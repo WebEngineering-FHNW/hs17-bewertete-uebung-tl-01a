@@ -49,8 +49,9 @@ li{
     font-family: sans-serif;
     font-weight:100;
     color:black; /*Schriftfarbe schwarz*/
+    line-height1.25em;
     margin:0em;
-    padding: 1.25em;
+    padding:0em;
     margin:0.313em 0em 0.313em 0em; /*Abstände auf jeder Seite, ca. 3px*/
     
 }
@@ -112,6 +113,18 @@ nav ul li{
 }
 
 nav ul li a {
-    color:orange;
+    color:black;
     font-size: 1.125em;
+    line-height:2.5em;
+    padding:0.563em 0.938em 0.375em 0.983em;
+    transition:background:0.2s;
+    -webkit-transition:background:0.2s;
 }
+nav ul li a:hover{
+    background:grey;
+    border-bottom: 0.188em solid red;
+}
+nav ul li a.active{
+    border-bottom: 0.188em solid red;
+}
+/*Inhalts Bereich*/
