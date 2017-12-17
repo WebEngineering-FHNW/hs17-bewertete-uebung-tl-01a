@@ -15,7 +15,7 @@ Ich werde der einzige User sein, welcher Anleitungen auf der Website ver�ffent
 ## Project confirmation
 
 good idea.
-But I cannot confirm without knowing who you are. Please give your matriculation number above.
+confirmed.
 
 
 ## Project delivery <to be filled by student>
