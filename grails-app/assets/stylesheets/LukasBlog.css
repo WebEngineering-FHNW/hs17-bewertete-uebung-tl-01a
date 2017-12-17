@@ -1,0 +1,28 @@
+/* Dieses CSS habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=dVYdOSSJ_Tk */
+
+body{
+ background:DCDCDC;
+    font-size:100%;
+    margin:0em;
+    padding:0em;
+    
+}
+h1{
+    font-size:2.5em;
+    line-height:3.8em;
+    font-family:sans-serif;
+    font-weight: 100;
+    color:#F0FFFF;
+    margin:0em;
+}
+h2{
+    font-size:1.5em;
+    line-height:1.8em;
+    font-family:sans-serif;
+    font-weight: 100;
+    color:#F0FFFF;
+    margin:0em;
+    padding:1.25em;
+    text-align: left;
+    
+}
