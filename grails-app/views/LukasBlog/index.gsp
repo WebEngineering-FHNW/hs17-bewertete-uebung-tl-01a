@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+
+<!--EXTERNAL Dieses HTML habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=g2taIe7ZFUA -->
 <html>
+
 	<head>
 		<title>LukasBlog</title>
-		<link rel="stylesheet" href="LukasBlog.css" type="text/css" />
+		<link rel="stylesheet" href="../../assets/stylesheets/LukasBlog.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"<>/script>
 		<script type ="text/javascript">
@@ -12,7 +15,7 @@
 		<body>
 			<section id="menuleiste">
 					<ul>
-						<li><a class="menubutton" href="#menu><img src="Bilder/menu.png"</a></li>
+						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png"</a></li>
 					</ul>
 			</section>
 				<header>

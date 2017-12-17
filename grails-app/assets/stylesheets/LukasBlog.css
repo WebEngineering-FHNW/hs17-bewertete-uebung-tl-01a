@@ -20,7 +20,7 @@ h2{
     line-height:1.8em;
     font-family:sans-serif;
     font-weight: 100;
-    color:#F0FFFF;
+    color:black;
     margin:0em;
     padding:1.25em; /*inneren Abstand 1.25em*/
     text-align: left; /*Text links orrientiert*/
@@ -64,4 +64,28 @@ img{
 
 a{
    text-decoration: none; 
+}
+/*Einstellungen Navigationsleiste*/
+nav{
+    display:block;
+    height: 2.5em;
+    background:white;
+    text-align: center;
+}
+
+nav ul{
+    display:block;
+}
+
+nav ul li{
+    display:inline;
+
+}
+
+nav ul li a{
+    color:black;
+    font-size:1.125em;
+    line-height: 2.5em;
+    transition:background 0.2s;
+    
 }
