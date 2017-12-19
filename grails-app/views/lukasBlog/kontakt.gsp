@@ -21,10 +21,10 @@
 				</header>
 				<nav class="nav">
 					<ul>
-						<li><a href="index" class="active">Home</a></li>
+				        <li><a href="index">Home</a></li>
 						<li><a href="anleitungen">Anleitungen</a></li>
 						<!--<li><a href="index.gsp">Projekte</a></li>-->
-						<li><a href="kontakt">Kontakt</a></li>
+						<li><a href="kontakt"class="active">Kontakt</a></li>
 						<li><a href="ueberuns">Über uns</a></li>
 					</ul>
 				</nav>

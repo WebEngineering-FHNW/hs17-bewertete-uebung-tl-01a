@@ -12,8 +12,7 @@
 		<body>
 			<section id="menuleiste">
 					<ul>
-						<li><a class="menubutton" href="#menu"><img src="../../assets/images/menu.png" alt="Menubutton"/> </a></li>
-                        
+						<li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt="Menubutton"/> </a></li>
 					</ul>
 			</section>
 				<header>
@@ -21,11 +20,11 @@
 				</header>
 				<nav class="nav">
 					<ul>
-						<li><a href="index.gsp" class="active">Home</a></li>
-						<li><a href="index.gsp">Anleitungen</a></li>
+				        <li><a href="index">Home</a></li>
+						<li><a href="anleitungen" class="active">Anleitungen</a></li>
 						<!--<li><a href="index.gsp">Projekte</a></li>-->
-						<li><a href="index.gsp">Kontakt</a></li>
-						<li><a href="index.gsp">Über uns</a></li>
+						<li><a href="kontakt">Kontakt</a></li>
+						<li><a href="ueberuns">Über uns</a></li>
 					</ul>
 				</nav>
 			<section id="hauptbereich">
@@ -57,9 +56,9 @@
                     
 				<footer>
                     <ul>
-				        <li>&copy 2017 Lukas Meyer</li>
-				        <li>Kontakt</li>
-				        <li>Impressum</li>
+				        <li>&copy; 2017 Lukas Meyer</li>
+				        <li><a href="kontakt">Kontakt</a></li>
+				        
                     </ul>
 				</footer>
 			

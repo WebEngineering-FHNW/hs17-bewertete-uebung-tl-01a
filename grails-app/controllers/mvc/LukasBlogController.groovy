@@ -11,4 +11,18 @@ def anleitungen(){
           
         }
     }
+    def ueberuns(){
+        withFormat{
+            html{
+                render(view: 'ueberuns')}
+          
+        }
+    }
+    def kontakt(){
+        withFormat{
+            html{
+                render(view: 'kontakt')}
+          
+        }
+    }
 }
