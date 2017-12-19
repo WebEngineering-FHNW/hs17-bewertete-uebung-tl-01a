@@ -172,21 +172,7 @@ Displays/Kontrollampen leuchten auf.<br>
 				
 				</article>
 				</section>
-				<!--	<aside>
-						<section>
-							<h2>Spenden</h2>
-							<p>Gefallen Ihnen meine Anleitungen? Spenden können mit Paypal unter dem Link: abc.com getätigt werden. </p>
-						</section>
-						
-						<section>
-							<h2>Neueste Anleitungen</h2>
-							<ul>
-								<li>Kupplung wechseln 2008 Kia Ceed</li>
-								<li>Hintere Bremsbeläge wechseln 2001 BMW X5</li>
-								<li>Innenraumgebläse wechseln 2007 BMW 330xd Touring</li>
-							</ul>
-						</section>
-					</aside> --!>
+			
                     
 				<footer>
                     <ul>

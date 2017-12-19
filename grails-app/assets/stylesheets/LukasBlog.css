@@ -239,7 +239,7 @@ footer ul li a{
 .form{
     width:340px;
     min-width: 300px;
-    height:410px;
+    height:450px;
     background:#66ccff;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
@@ -265,18 +265,24 @@ input{
     background:none;
     outline:none;
     resize:none;
-    border:0;font-family:'Montserrat',sans-serif;
+    border:0;
+    font-family:'Montserrat',sans-serif;
     transition:all .3s;
     border-bottom:2px solid white}
+
+input::placeholder{
+    color:whitesmoke;
+}
     
 input:focus{border-bottom:2px solid black}
 
-p2:before{
+label:before{
     content:attr(type);
     display:block;
     margin:28px 0 0;
     font-size:14px;
-    color:black}
+    color:black
+}
 
 button{
     float:right;
