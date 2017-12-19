@@ -5,12 +5,13 @@ body{
     font-size:100%; /*Standard Font Size =>Schriftgrösse 16px*/
     margin:0em;
     padding:0em;
+    font-family: sans-serif;
     
 }
 h1{
     font-size:2.5em; /*2.5x Standardschriftgrösse*/
     line-height:2.5em; /*2.5x Standardzeilenabstand*/
-    font-family:Times New Roman; /*Schrift sans-serif*/
+    font-family:"Times New Roman"; /*Schrift sans-serif*/
     font-weight: 100; /*Schrift Gewicht 100*/
     color:white; /*setzt Farbe*/
     margin:0em; /*Ränder 0em*/
@@ -121,8 +122,8 @@ nav ul li a {
     font-size: 1.125em;
     line-height:2.5em;
     padding:0.563em 0.938em 0.375em 0.983em;
-    transition:background:0.2s;
-    -webkit-transition:background:0.2s;
+    transition: background-color 0.5s ease;
+    background-color: lightgrey;
 }
 nav ul li a:hover{
     background:white;
@@ -138,7 +139,7 @@ nav ul li a.active{
     width:95%;
     max-width:1000px;
     margin:1.25em auto;
-    padding 0em;
+    padding: 0em;
 }
 
 #hauptbereich article{
@@ -147,9 +148,11 @@ nav ul li a.active{
     background:#F0F8FF;
     vertical-align: top;
     margin: 0em;
-    text-align: center;
+    text-align: right;
     
 }
+
+
 #hauptbereich article img{
     max-width: 1000px;    
     border-radius: 5px;
@@ -208,6 +211,7 @@ footer ul li a{
         width:100%;
         display:block;
         margin:0.5em 0em 0.5em 0em;
+       
     }
 }
 
@@ -225,32 +229,89 @@ footer ul li a{
     nav ul li {
         display:block;
         margin:0.3em 0em 0.3em 0em;
+        margin:0.3em 0em 0.3em 0em;
+    }
+}
+    
+/* EXTERNAL siehe Kontakt.gsp, aber selber stark neu formatiert und angepasst */
+    
+    
+.form{
+    width:340px;
+    min-width: 300px;
+    height:410px;
+    background:#66ccff;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(35vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:sans-serif;
+    position:relative;}
+    
+h3{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:115px;
+    color:black;
+    border-bottom:3px solid white;
     }
     
-    /* EXTERNAL https://little-boxes.de/lb1/9.6.2-schritt-2-das-formular-per-css-gestalten.html Das Kontaktformular */ 
-form {
-  background-color: #eee;
-  width: 370px; /* Breite des Formulars */
-  padding: 20px;
-  border: 1px solid #8c8c8c;
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid white}
+    
+input:focus{border-bottom:2px solid black}
+
+p2:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:black}
+
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    
+    background:#F0F8FF;
+    color:black;
+    cursor:pointer;
+    transition:all .3s
+    }
+
+button:hover{
+    background:black;
+    color:white
 }
-label { /* Beschriftung auf eigener Zeile */
-  display: block;
-  cursor: pointer; /* Mauszeiger wird zur Hand */
+    
+div{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#50505a;
+    color:#fff
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
 }
-input#absender,
-textarea {
-  width: 300px;
-  border: 1px solid #8c8c8c;
-  margin-bottom: 1em;
+span{
+    margin:0 5px 0 15px
 }
-textarea {
-  height: 7em;
-}
-input:focus,
-textarea:focus {
-  background-color: #d9d9d9;
-}
-  /* EXTERNAL  */    
+    
+  
     
 }

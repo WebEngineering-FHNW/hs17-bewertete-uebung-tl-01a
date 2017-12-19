@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
 
 		</head>
-		<body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
+		
 			<section id="menuleiste">
 					<ul>
 						<li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt="Menubutton"/> </a></li>
@@ -30,57 +30,29 @@
 					</ul>
 				</nav>
 			     <section id="hauptbereich">
-				<article>
-                
-                
-                
-                <!--EXTERNAL https://little-boxes.de/lb1/9.6.4-schritt-4-das-reiseziel-fuer-das-formular-festlegen.html-->
-               <form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi" method="post">
-                <input type="hidden" name="empfaenger" value="Tl-01a@hotmail.com" />
-                <div>
-                 <label for="absender">Ihre E-Mail-Adresse:</label>
-                 <input type="text" id="absender" name="absender" />
-                </div>
-                <div>
-                <label for="nachricht">Ihre Nachricht:</label>
-                <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea> 
-                 </div>
-                  <div>
-               <input type="submit" value="Abschicken" />
-              </div>
-               </form> 
-                
-                  <!--EXTERNAL-->
- 
-
-
-
-
-
-                
-                <p>                  
-                   
-                  </p>
-			
-					
 				
-				</article>
+                
+                
+            
+                <!--EXTERNAL 
+                https://codepen.io/arianalynn/pen/mPWdPZ
+                Jedoch mit eigenem Code erweitert-->
+                
+                
+       
+               
+<form class="form">
+  <h3>Kontaktiere uns</h3>
+  <p2 type="Name:"><input placeholder="Ihr Name"></input></p>
+  <p2 type="Email:"><input placeholder="Ihre E-Mail"></input></p>
+  <p2 type="Message:"><input placeholder="Was möchten Sie uns mitteilen"></input></p>
+  <button>Absenden</button>
+ 
+</form>                
+                  <!--EXTERNAL-->
+                 
 				</section>
-				<!--	<aside>
-						<section>
-							<h2>Spenden</h2>
-							<p>Gefallen Ihnen meine Anleitungen? Spenden können mit Paypal unter dem Link: abc.com getätigt werden. </p>
-						</section>
-						
-						<section>
-							<h2>Neueste Anleitungen</h2>
-							<ul>
-								<li>Kupplung wechseln 2008 Kia Ceed</li>
-								<li>Hintere Bremsbeläge wechseln 2001 BMW X5</li>
-								<li>Innenraumgebläse wechseln 2007 BMW 330xd Touring</li>
-							</ul>
-						</section>
-					</aside> --!>
+	
                     
 				<footer>
                     <ul>
