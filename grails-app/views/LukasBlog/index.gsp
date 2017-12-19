@@ -8,7 +8,17 @@
 		<link rel="stylesheet" href="/assets/LukasBlog.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
         <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
-
+        
+        <!--Dieses Skript sollte das Menu einblenden wenn auf den Button geklickt wird, in der Mobile Ansicht, geht leider nicht-->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $('menubutton').click(function() {
+        $('nav').slideToggle('slow');
+        });
+        }):
+        </script>
+        
 		</head>
 		<body>
         
