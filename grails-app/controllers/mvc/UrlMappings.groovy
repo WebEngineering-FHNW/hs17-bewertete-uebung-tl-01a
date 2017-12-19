@@ -10,6 +10,7 @@ class UrlMappings {
             }
         }
         "/"(view:"/index")
+        "/lukasBlog/anleitungen"(view:"/lukasBlog/anleitungen")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

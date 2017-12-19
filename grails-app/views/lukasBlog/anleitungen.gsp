@@ -21,8 +21,8 @@
 				</header>
 				<nav class="nav">
 					<ul>
-						<li><a href="index" class="active">Home</a></li>
-						<li><a href="anleitungen">Anleitungen</a></li>
+						<li><a href="index.gsp" class="active">Home</a></li>
+						<li><a href="index.gsp">Anleitungen</a></li>
 						<!--<li><a href="index.gsp">Projekte</a></li>-->
 						<li><a href="index.gsp">Kontakt</a></li>
 						<li><a href="index.gsp">Über uns</a></li>
