@@ -34,7 +34,7 @@
                    Willkommen auf unserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
                    
                   </p>
-				<img src="../../assets/images/M5.png" alt="2001 M5 E39 LeMansBlau"/>
+				<img src="/assets/M5.png" alt="2001 M5 E39 LeMansBlau"/>
 					
 				
 				</article>

@@ -1,7 +1,7 @@
 /*EXTERNALDieses CSS habe ich unter zu Hilfe name folgendes Youtube Tutorials erstellt: https://www.youtube.com/watch?v=dVYdOSSJ_Tk */
 
 body{
- background:grey; /*Hintergrundfarbe*/
+ background:#F0F8FF;; /*Hintergrundfarbe*/
     font-size:100%; /*Standard Font Size =>Schriftgrösse 16px*/
     margin:0em;
     padding:0em;
@@ -10,9 +10,9 @@ body{
 h1{
     font-size:2.5em; /*2.5x Standardschriftgrösse*/
     line-height:2.5em; /*2.5x Standardzeilenabstand*/
-    font-family:sans-serif; /*Schrift sans-serif*/
+    font-family:Times New Roman; /*Schrift sans-serif*/
     font-weight: 100; /*Schrift Gewicht 100*/
-    color:#F0FFFF; /*setzt Farbe*/
+    color:white; /*setzt Farbe*/
     margin:0em; /*Ränder 0em*/
 }
 h2{
@@ -69,7 +69,7 @@ a{
 /*Oberste Leiste*/
 #menuleiste {
     display:block;
-    background: white;
+    background:#4682B4;
    
     
 }
@@ -93,7 +93,7 @@ a{
 /*Header*/
 header{
     display:block;
-    background: #666666;
+    background: #4682B4;
     text-align: center;
 }
 
@@ -101,13 +101,14 @@ header{
 nav{
     display:block;
     height:2.5em;
-    color:white;
+    color:black;
     text-align: center;
     
 }
 
 nav ul{
     display:block;
+background:lightgray;
 }
 
 nav ul li{
@@ -133,6 +134,7 @@ nav ul li a.active{
 /*Inhalts Bereich*/
 #hauptbereich{
     display:block;
+    background:#F0F8FF;
     width:95%;
     max-width:1000px;
     margin:1.25em auto;
@@ -142,7 +144,7 @@ nav ul li a.active{
 #hauptbereich article{
     display:inline-block;
     width: 100%;
-    background:grey;
+    background:#F0F8FF;
     vertical-align: top;
     margin: 0em;
     text-align: center;
@@ -169,7 +171,7 @@ nav ul li a.active{
 }
 footer{
     display:block;
-    background:white;
+    background:#F0F8FF;
     text-align:center;
 }
 
