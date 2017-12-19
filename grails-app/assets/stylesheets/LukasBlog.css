@@ -139,23 +139,27 @@ nav ul li a.active{
     width:95%;
     max-width:1000px;
     margin:1.25em auto;
-    padding: 0em;
+    padding: 1em;
+    padding-bottom:2em;
 }
 
 #hauptbereich article{
     display:inline-block;
     width: 100%;
-    background:#F0F8FF;
+    background:lightgrey;
     vertical-align: top;
     margin: 0em;
     text-align: right;
-    
+    margin-bottom: 1em;    
 }
 
 
 #hauptbereich article img{
     max-width: 1000px;    
     border-radius: 5px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
    
   
 }
@@ -176,21 +180,25 @@ footer{
     display:block;
     background:#F0F8FF;
     text-align:center;
+    position:fixed; /*lässt footer mitscrollen*/
+    bottom:0; /*footer ist am Ende der Seite*/
+    width:100%; /*volle Breite*/
+    height:2em; /*2em hoch*/
 }
 
 footer ul{
-    display:block;
-    width:100%;
-    max-width: 1000px;
-    text-align: center;
+    display:block; /*Block Anordnung*/
+    width:100%; /*Breite 100%*/
+    max-width: 1000px; /*Max Breite 1000px*/
+    text-align: center; /*Text ist im Mitte*/
     margin:0px auto;
 
 }
 footer ul li{
-    display:inline;
-    font-size:0.8em;
-    line-height:2.8em;
-    color:black;
+    display:inline; /*Horizontale Darstellung*/
+    font-size:0.8em; /*Schriftgrösse 0.8em*/
+    line-height:2.8em; 
+    color:black; 
     padding:0em 0.5em 0em 0.5em
 
 }
@@ -239,13 +247,13 @@ footer ul li a{
 .form{
     width:340px;
     min-width: 300px;
-    height:450px;
+    height:475px;
     background:#66ccff;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    margin:calc(35vh - 220px) auto;
+    margin:calc(20vh - 80px) auto;
     padding:20px 30px;
-    max-width:calc(100vw - 40px);
+    max-width:calc(80vw - 40px);
     box-sizing:border-box;
     font-family:sans-serif;
     position:relative;}
@@ -270,8 +278,9 @@ input{
     transition:all .3s;
     border-bottom:2px solid white}
 
-input::placeholder{
-    color:whitesmoke;
+
+input::placeholder{/*Dieser Placeholder ist dem CSS Validator unbekannt, er funktioniert aber in allen modernen Browsern (Stand Frühling 2017) */
+    color:whitesmoke; /*Setzt die Farbe des Hilfstext in den Textboxen auf whitesmoke*/
 }
     
 input:focus{border-bottom:2px solid black}
@@ -307,9 +316,8 @@ div{
     bottom:-15px;
     right:-20px;
     background:#50505a;
-    color:#fff
-    width:320px;
-    padding:16px 4px 16px 0;
+    color:#fff;
+    padding:16px 4px 16px 0px;
     border-radius:6px;
     font-size:13px;
     box-shadow:10px 10px 40px -14px #000
@@ -319,5 +327,4 @@ span{
 }
     
   
-    
-}
+
