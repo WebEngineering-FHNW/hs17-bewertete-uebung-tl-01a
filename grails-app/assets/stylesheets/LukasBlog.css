@@ -226,4 +226,31 @@ footer ul li a{
         display:block;
         margin:0.3em 0em 0.3em 0em;
     }
+    
+    /* EXTERNAL https://little-boxes.de/lb1/9.6.2-schritt-2-das-formular-per-css-gestalten.html Das Kontaktformular */ 
+form {
+  background-color: #eee;
+  width: 370px; /* Breite des Formulars */
+  padding: 20px;
+  border: 1px solid #8c8c8c;
+}
+label { /* Beschriftung auf eigener Zeile */
+  display: block;
+  cursor: pointer; /* Mauszeiger wird zur Hand */
+}
+input#absender,
+textarea {
+  width: 300px;
+  border: 1px solid #8c8c8c;
+  margin-bottom: 1em;
+}
+textarea {
+  height: 7em;
+}
+input:focus,
+textarea:focus {
+  background-color: #d9d9d9;
+}
+  /* EXTERNAL  */    
+    
 }

@@ -7,10 +7,11 @@
 		<title>LukasBlog</title>
 		<link rel="stylesheet" href="/assets/LukasBlog.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-        <link rel="shortcut icon" type="image/png" img src"/assets/favicon.png" href="/assets/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
 
 		</head>
 		<body>
+        
 			<section id="menuleiste">
 					<ul>
 						<li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt="Menubutton"/> </a></li>

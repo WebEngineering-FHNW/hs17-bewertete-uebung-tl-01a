@@ -7,10 +7,10 @@
 		<title>LukasBlog</title>
 		<link rel="stylesheet" href="/assets/LukasBlog.css" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-        <link rel="shortcut icon" type="image/png" img src"/assets/favicon.png" href="/assets/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
 
 		</head>
-		<body>
+		<body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
 			<section id="menuleiste">
 					<ul>
 						<li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt="Menubutton"/> </a></li>
@@ -25,17 +25,43 @@
 				        <li><a href="index">Home</a></li>
 						<li><a href="anleitungen">Anleitungen</a></li>
 						<!--<li><a href="index.gsp">Projekte</a></li>-->
-						<li><a href="kontakt"class="active">Kontakt</a></li>
+						<li><a href="kontakt" class="active">Kontakt</a></li>
 						<li><a href="ueberuns">Über uns</a></li>
 					</ul>
 				</nav>
-			<section id="hauptbereich">
+			     <section id="hauptbereich">
 				<article>
-                <p> 
-                   Willkommen auf unserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
+                
+                
+                
+                <!--EXTERNAL https://little-boxes.de/lb1/9.6.4-schritt-4-das-reiseziel-fuer-das-formular-festlegen.html-->
+               <form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi" method="post">
+                <input type="hidden" name="empfaenger" value="Tl-01a@hotmail.com" />
+                <div>
+                 <label for="absender">Ihre E-Mail-Adresse:</label>
+                 <input type="text" id="absender" name="absender" />
+                </div>
+                <div>
+                <label for="nachricht">Ihre Nachricht:</label>
+                <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea> 
+                 </div>
+                  <div>
+               <input type="submit" value="Abschicken" />
+              </div>
+               </form> 
+                
+                  <!--EXTERNAL-->
+ 
+
+
+
+
+
+                
+                <p>                  
                    
                   </p>
-				<img src="/assets/M5.png" alt="2001 M5 E39 LeMansBlau"/>
+			
 					
 				
 				</article>
