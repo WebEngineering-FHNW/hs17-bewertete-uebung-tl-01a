@@ -32,11 +32,12 @@
 			<section id="hauptbereich">
 				<article>
                 <p> 
-                   Willkommen auf unserer Auto Homepage. Hier findest du Reparaturanleitungen, Informationen über unsere Projekte und Informationen über uns.
+                  Ich bin Lukas Meyer 25 Jahre alt, studiere iCompetence an der FHNW in Windisch. <br>
+                  Ich betreibe diesen Blog zusammen mit meiner Freundin.<br>
+                  Wir beide schrauben gerne an Autos und werden laufend neue Anleitungen auf diesem Blog posten<br>
                    
                   </p>
-				<img src="/assets/M5.png" alt="2001 M5 E39 LeMansBlau"/>
-					
+			
 				
 				</article>
 				</section>
