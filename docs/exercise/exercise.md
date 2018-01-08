@@ -41,4 +41,18 @@ Mit dem GitHub Repository hatte ich auch meine Probleme, mit dem Github Desktop 
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description: valid html (even using semantic tags to a small extend).
+Der Blog funktioniert bis auf das Hamberger Menue.
+
+The functionality covers basic navigation, interactivity and validation in the contact view,
+and responsive design.
+
+Engineering:
+Commit log is ok, even though you started a bit late with your work ;-)
+Comments, naming, etc. is ok.
+The views contain some duplication that could have been avoided by using layout or templates.
+The html code could be better formatted (that makes working with it easier).
+
+Nice work!
+
+Total grade: 5.1
